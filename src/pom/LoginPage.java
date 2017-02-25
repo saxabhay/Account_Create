@@ -46,7 +46,7 @@ public class LoginPage extends BasePage {
 	}
 	public void verifyversion(String eVersion){
 		String aVersion=version.getText();
-		Assert.assertEquals(aVersion, aVersion);
+		Assert.assertEquals(aVersion, eVersion);
 	}
 	public void verifyerrispresent(SoftAssert sa){
 		WebDriverWait wait=new WebDriverWait(driver,10);
