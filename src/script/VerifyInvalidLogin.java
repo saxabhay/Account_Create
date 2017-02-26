@@ -1,6 +1,7 @@
 package script;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import genric.BaseTest;
@@ -28,7 +29,7 @@ public class VerifyInvalidLogin extends BaseTest {
 		 
 	}
   //using excel
-	@Test
+	/*@Test
 	public void testVerifyInvalidLogin1(){
 		SoftAssert sa1=new SoftAssert();
 		LoginPage l1=new LoginPage(driver);
@@ -42,5 +43,5 @@ public class VerifyInvalidLogin extends BaseTest {
 		l1.verifyerrispresent(sa1);
 		sa1.assertAll();
 		}
-}
+}*/
 }

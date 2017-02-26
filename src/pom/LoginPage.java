@@ -14,6 +14,9 @@ import genric.BasePage;
 
 public class LoginPage extends BasePage {
 	
+	@FindBy(xpath="//nobr[contains(text(),'actiTIME')]'")
+	private WebElement version;
+	
 	@FindBy(id="username")
 	private WebElement unTB;
 	
@@ -23,8 +26,7 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//div[.='Login ']")
 	private WebElement loginbtn;
 	
-	@FindBy(xpath="//nobr[contains(.,'actime')]'")
-	private WebElement version;
+	
 	
 	@FindBy(xpath="//span[contains(.,'invalid')]")
 	private WebElement errmsg;

@@ -1,6 +1,7 @@
 package script;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import genric.BaseTest;
 import genric.Excel;
@@ -8,11 +9,11 @@ import pom.LoginPage;
 
 public class VerifyLoginPage extends BaseTest {
 	
-	@Test
+	/*@Test
 	public void testVerifyLoginPage(){
 		LoginPage l=new LoginPage(driver);
-		l.verifytitle("actiTime-Login");
-	}
+		l.verifytitle("actiTIME - Login");
+	}*/
 	
 	// using Excel
 	

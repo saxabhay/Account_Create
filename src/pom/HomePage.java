@@ -8,7 +8,7 @@ import genric.BasePage;
 
 public class HomePage extends BasePage {
 	
-	@FindBy(id="LogoutLink")
+	@FindBy(id="logoutLink")
 	private WebElement logoutlink;
 	
 	public HomePage(WebDriver driver){
